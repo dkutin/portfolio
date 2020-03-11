@@ -1,0 +1,59 @@
+{
+  "main": {
+    "name":"Dmitry Kutin",
+    "description":"A self-motivated learner, I'm a student looking for new things to learn and teams to work with to further my web development career",
+    "image":"profilepic.jpg",
+    "bio":"A student from Toronto, Ontario whose daily development includes Git, PHP, HTML5, JavaScript, CSS, Docker, MySQL, Drupal and React.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "dmitrykutin@outlook.com",
+    "phone": "905-466-6980",
+    "address":{
+      "street":"Cobourg",
+      "city":"Ottawa",
+      "state":"ON",
+      "zip": "L7M"
+    },
+    "website": "",
+    "social": [
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/dmitry-kutin-527032189/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/dkutin",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My daily development work involves: ",
+    "education":[
+      {
+        "school":"University of Ottawa",
+        "degree":"BSc Specialization in Computer Science with Management",
+        "graduated":"April 2021",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"University of Ottawa",
+        "title":"Junior Web Developer",
+        "years":"May 2019 - Present",
+        "description":"Full-Stack development using the Drupal framework, docker products, PHP, HTML, Javascript and CSS. Worked on a Drupal 7 -> 8 Migration, Emergency Management Notification System"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Fantasy Tracker",
+        "category":"An app created to show player trends in Yahoo! Fantasy Basketball",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}

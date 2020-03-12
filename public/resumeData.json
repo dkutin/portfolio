@@ -2,17 +2,9 @@
   "main": {
     "name":"Dmitry Kutin",
     "description":"A self-motivated learner, I'm a student looking for new things to learn and teams to work with to further my web development career",
-    "image":"profilepic.jpg",
     "bio":"A student from Toronto, Ontario whose daily development includes Git, PHP, HTML5, JavaScript, CSS, Docker, MySQL, Drupal and React.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "dmitrykutin@outlook.com",
     "phone": "905-466-6980",
-    "address":{
-      "street":"Cobourg",
-      "city":"Ottawa",
-      "state":"ON",
-      "zip": "L7M"
-    },
     "website": "",
     "social": [
       {
@@ -28,7 +20,6 @@
     ]
   },
   "resume":{
-    "skillmessage":"My daily development work involves: ",
     "education":[
       {
         "school":"University of Ottawa",
@@ -49,10 +40,36 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Fantasy Tracker",
-        "category":"An app created to show player trends in Yahoo! Fantasy Basketball",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Fantasy Tracker -- A Yahoo! API based application",
+        "description":"An app created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league",
+        "contribution" : "Learning Yahoo! APIs, handling API requests, storing them in a MySQL Database -- codebase build in PHP.",
+        "image":"fantasytracker.jpg",
+        "url":"https://dkutin.github.io/fantasytracker",
+        "repo": "https://github.com/dkutin/fantasytracker"
+      },
+      {
+        "title":"Emergency Management Notification System (EMNS)",
+        "description" : "",
+        "contribution" : "",
+        "image":"emns.jpg",
+        "url":"https://ue.uottawa.ca/",
+        "repo": "private"
+      },
+      {
+        "title":"uoZone (uOttawa Student Center)",
+        "description" : "",
+        "contribution" : "",
+        "image":"uozone.jpg",
+        "url":"https://www.uozone2.uottawa.ca",
+        "repo": "private"
+      },
+      {
+        "title":"My Development Portfolio Site (This very page)",
+        "description" : "This very site was created with React, HTML, CSS, Javascript -- hosted on Github Pages.",
+        "contribution" : "",
+        "image":"uozone.jpg",
+        "url":"https://www.uozone2.uottawa.ca",
+        "repo": "private"
       }
     ]
   }

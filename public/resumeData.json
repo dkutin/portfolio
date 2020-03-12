@@ -64,12 +64,12 @@
         "repo": "private"
       },
       {
-        "title":"My Development Portfolio Site (This very page)",
+        "title":"My Personal Development Portfolio Site (You're on it!)",
         "description" : "This very site was created with React, HTML, CSS, Javascript -- hosted on Github Pages.",
         "contribution" : "",
-        "image":"uozone.jpg",
-        "url":"https://www.uozone2.uottawa.ca",
-        "repo": "private"
+        "image":"portfolio.jpg",
+        "url":"#home",
+        "repo": "https://github.com/dkutin/dkutin.github.io/"
       }
     ]
   }

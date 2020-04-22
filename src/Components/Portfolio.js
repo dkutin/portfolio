@@ -6,32 +6,32 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
-        var githubImage = 'images/github.svg';
-        var linkImage = 'images/link.svg';
         return <div key={projects.title} className="columns portfolio-item">
             {/*Image with Hover*/}
             <div className="portfolio-item-image" >
                 <div className="item-wrap">
                     <img alt={projects.title} src={projectImage} />
-                    <div className="overlay">
-                        <div className="github-icon">
-                            <a href={projects.repo}>
-                                <img src={githubImage} className="icons" alt="GitHub"/>
-                            </a>
+                        <div className="overlay">
+                                <ul className="project-links">
+                                    <li key={projects.name}><a href={projects.url}><i className="fa fa-link"></i></a></li>
+                                    <li key={projects.name}><a href={projects.repo}><i className="fa fa-github"></i></a></li>
+                                </ul>
                         </div>
-                        <div className="hyperlink-icon">
-                            <a href={projects.url}>
-                                <img src={linkImage} className="icons" alt="Live Demo"/>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
             {/*Text*/}
             <div className="portfolio-item-meta">
-                   <h5>{projects.title}</h5><br/>
-                <p><b>Description</b><br/>{projects.description}</p><br/>
-                   <p><b>My Contribution</b><br/>{projects.contribution}</p>
+                <h5>{projects.title}</h5><br/>
+                <p>
+                    <b>Description</b>
+                    <br/>{projects.description}
+                </p>
+                <br/>
+                <p>
+                    <b>My Contribution</b>
+                    <br/>
+                    {projects.contribution}
+                </p>
             </div>
           </div>
       })
@@ -46,7 +46,7 @@ class Portfolio extends Component {
 
             <h1>Projects</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                 {projects}
             </div>
           </div>

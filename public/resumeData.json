@@ -1,11 +1,11 @@
 {
   "main": {
     "name":"Dmitry Kutin",
-    "description":"A self-motivated learner, I'm a student looking for new things to learn and teams to work with to further my web development career",
-    "bio":"A student from Toronto, Ontario whose daily development includes Git, PHP, HTML5, JavaScript, CSS, Docker, MySQL, Drupal and React.",
+    "description":"Fourth Year Student at the University of Ottawa working towards a BSc with Honours in Computer Science, Management and Entrepreneurship Option",
+    "bio":"Originally from Toronto, Ontario, a motivated young professional tooled towards web development with over a year of development experience using Git, PHP, HTML, CSS, JavaScript, React.js, MySQL, with experience using C and Java for course work. When I'm not coding, I'm found at the gym, outdoors, or honing my chess skills.",
     "email": "dmitrykutin@outlook.com",
     "phone": "905-466-6980",
-    "website": "",
+    "resumedownload": "",
     "social": [
       {
         "name":"linkedin",
@@ -23,9 +23,8 @@
     "education":[
       {
         "school":"University of Ottawa",
-        "degree":"BSc Specialization in Computer Science with Management",
-        "graduated":"April 2021",
-        "description":""
+        "degree":"BSc Specialization in Computer Science, Management, Entrepreneurship Option",
+        "description":"Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture and various core Business Management courses"
       }
     ],
     "work":[
@@ -33,7 +32,8 @@
         "company":"University of Ottawa",
         "title":"Junior Web Developer",
         "years":"May 2019 - Present",
-        "description":"Full-Stack development using the Drupal framework, docker products, PHP, HTML, Javascript and CSS. Worked on a Drupal 7 -> 8 Migration, Emergency Management Notification System"
+        "description":"Full-Stack development with a medium sized development team working in an Agile environment employing scrum.",
+        "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, and development of a campus-wide emergency management notification system."
       }
     ]
   },
@@ -41,32 +41,16 @@
     "projects": [
       {
         "title":"Fantasy Tracker -- A Yahoo! API based application",
-        "description":"An app created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league",
-        "contribution" : "Learning Yahoo! APIs, handling API requests, storing them in a MySQL Database -- codebase build in PHP.",
+        "description":"A work in progress: Created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league and viewable on a centralized web page with DBMS for authenticated and non-authenticated users.",
+        "contribution" : "Handling and calling APIs, storing them in a MySQL Database focused on backend with a PHP dominant codebase.",
         "image":"fantasytracker.jpg",
         "url":"https://dkutin.github.io/fantasytracker",
         "repo": "https://github.com/dkutin/fantasytracker"
       },
       {
-        "title":"Emergency Management Notification System (EMNS)",
-        "description" : "",
-        "contribution" : "",
-        "image":"emergency.jpg",
-        "url":"https://ue.uottawa.ca/",
-        "repo": "private"
-      },
-      {
-        "title":"uoZone (uOttawa Student Center)",
-        "description" : "",
-        "contribution" : "",
-        "image":"uozone.jpg",
-        "url":"https://www.uozone2.uottawa.ca",
-        "repo": "private"
-      },
-      {
-        "title":"My Personal Development Portfolio Site (You're on it!)",
-        "description" : "This very site was created with React, HTML, CSS, Javascript -- hosted on Github Pages.",
-        "contribution" : "",
+        "title":"My Portfolio Site",
+        "description" : "This site was created with React.js, HTML, CSS, Javascript -- hosted on Github Pages. A showcase of my past work in my undergraduate degree and various personal projects I (somehow) found time to bring to life.",
+        "contribution" : "Furthered my skills with HTML, CSS and JS. Experimented with UX/UI design in Adobe XD, able to implement my desired look and feel learning React.js",
         "image":"portfolio.jpg",
         "url":"#home",
         "repo": "https://github.com/dkutin/dkutin.github.io/"

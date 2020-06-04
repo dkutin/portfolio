@@ -44,7 +44,7 @@
         "description":"A work in progress: Created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league and viewable on a centralized web page with DBMS for authenticated and non-authenticated users.",
         "contribution" : "Handling and calling APIs, storing them in a MySQL Database focused on backend with a PHP dominant codebase.",
         "image":"fantasytracker.jpg",
-        "url":"https://dkutin.github.io/fantasytracker",
+        "url":"https://dkutin.github.io/fantasytracker/",
         "repo": "https://github.com/dkutin/fantasytracker"
       },
       {

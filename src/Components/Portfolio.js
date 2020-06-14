@@ -10,7 +10,7 @@ class Portfolio extends Component {
             {/*Image with Hover*/}
             <div className="portfolio-item-image" >
                 <div className="item-wrap">
-                    <img alt={projects.title} src={projectImage} />
+                    <img alt={projects.title} src={projectImage}/>
                         <div className="overlay">
                                 <ul className="project-links">
                                     <li key={projects.name}><a href={projects.url}><i className="fa fa-link"></i></a></li>

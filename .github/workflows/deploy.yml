@@ -27,4 +27,5 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./build
           cname: dmitrykutin.com
+          publish_branch: master
           keep_files: true

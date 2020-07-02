@@ -2,10 +2,10 @@
   "main": {
     "name":"Dmitry Kutin",
     "description":"Fourth Year Student at the University of Ottawa working towards a BSc with Honours in Computer Science, Management and Entrepreneurship Option",
-    "bio":"A self-motivated young professional tooled towards full-stack development with proficency in MEAN, MERN and LAMP stacks. Outside of web development, I use Java and C for course work and algorithmic problems on LeetCode.",
+    "bio":"A self-motivated young professional tooled towards full-stack development with proficiency in MEAN, MERN and LAMP stacks. Outside of web development, I use Java and C for course work and algorithmic problems on LeetCode.",
     "email": "dmitrykutin@outlook.com",
     "phone": "905-466-6980",
-    "resumedownload": "https://drive.google.com/file/d/1H0xlrN87qXhehhkDv7eKT7y8UzOSZiqA/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1gH4VsHFDbIUX-FTjeH4R93vIfQrLs7i6/view?usp=sharing",
     "social": [
       {
         "name":"linkedin",
@@ -24,7 +24,7 @@
       {
         "school":"University of Ottawa",
         "degree":"BSc Specialization in Computer Science, Management, Entrepreneurship Option",
-        "description":"Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture and various core Business Management courses. \r\n Achieved Dean's List Honour in the Winter 2020 Semester."
+        "description":"Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture, and various core Business Management courses. \r\n Achieved Dean's List Honour in the Winter 2020 Semester."
       }
     ],
     "work":[
@@ -33,32 +33,38 @@
         "title":"Junior Web Developer",
         "years":"May 2019 - Present",
         "description":"Full-Stack development with a medium-sized development team working with Agile and SCRUM methodologies through JIRA.",
-        "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, development of a campus-wide emergency management notification system, and Drupal 7 module for a unveristiy fee estimator tool conneccted to a RESTful API with OAuth."
+        "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, development of a campus-wide emergency management notification system, and Drupal 7 module for a university fee estimator tool connected to a RESTful API with OAuth."
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Fantasy Tracker -- A Yahoo! API based application",
+        "title":"Fantasy Tracker - Yahoo! Fantasy API",
         "description":"A work in progress: Created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league and viewable on a centralized web page with DBMS for authenticated and non-authenticated users.",
         "contribution" : "Handling and calling APIs, storing them in a MySQL Database, queried from a Node.js API using the Express framework and CircleCI for testing in pre-production. The application featured a React front-end.",
         "image":"fantasytracker.jpg",
-        "url":"https://dkutin.github.io/fantasytracker/",
+        "url":"https://dmitrykutin.com/fantasytracker/",
         "repo": "https://github.com/dkutin/fantasytracker"
       },
       {
-        "title":"My Portfolio Site",
+        "title":"Affinity - Spotify API with Auth",
+        "description" : "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - WIP: For the launch in Google Cloud with Google App Engine.",
+        "contribution" : "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and CSS frontend.",
+        "image":"affinity.jpg",
+        "repo": "https://github.com/dkutin/affinity"
+      },
+      {
+        "title":"My Portfolio",
         "description" : "This site was created with React, HTML, CSS, Javascript -- hosted on Github Pages. A showcase of my past work in my undergraduate degree and various personal projects I (somehow) found time to bring to life.",
         "contribution" : "Furthered my skills with HTML, CSS and JS. Experimented with UX/UI design in Adobe XD, able to implement my desired look and feel by utilizing a React application",
         "image":"portfolio.jpg",
-        "url":"#home",
         "repo": "https://github.com/dkutin/dkutin.github.io/"
       },
       {
         "title":"LeetCode Problems",
         "description" : "A repository of various algorithmic LeetCode problems I solved using Java and C.",
-        "contribution" : "To refine my knowledge of algorithms, databases, and concurrency in Java. Common interview questions practice and to apply concepts learned in my computer science undergraduate degree.",
+        "contribution" : "To refine my knowledge of algorithms, databases, and concurrency in Java. Common interview questions to practice and to apply concepts learned in my computer science undergraduate degree.",
         "image":"leetcode.jpg",
         "url": "https://leetcode.com/dkutin/",
         "repo": "https://github.com/dkutin/leetcode-problems"

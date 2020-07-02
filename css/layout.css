@@ -18,6 +18,17 @@
 
 ===================================================================== */
 
+@media only screen and (max-width: 980px) {
+   .portfolio-item .item-wrap img {
+      min-width: unset !important;
+      min-height: unset !important;
+   }
+   .portfolio-item .item-wrap .overlay {
+      min-width: unset !important;
+      min-height: unset !important;
+   }
+}
+
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -93,6 +104,11 @@ header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
+}
+
+.disabled {
+   pointer-events: none !important;
+   color: grey;
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
@@ -278,7 +294,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
-    display: table;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -312,9 +327,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 
 .project-links {
-   margin: 25% 33%;
+   display: inline-table;
    padding: 0;
    font-size: 30px;
+   position: absolute;
+   top: 35%;
+   left: 33%;
+   width: 30%;
 }
 
 .project-links ul {
@@ -333,7 +352,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 .portfolio-item .portfolio-item-meta { padding: 10px 0 }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-regular', sans-serif;

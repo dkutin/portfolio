@@ -6,6 +6,9 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
+        var linkClass = 'fa fa-link';
+        if (!projects.url) 
+          linkClass += ' disabled'
         return <div key={projects.title} className="columns portfolio-item">
             {/*Image with Hover*/}
             <div className="portfolio-item-image" >
@@ -13,7 +16,7 @@ class Portfolio extends Component {
                     <img alt={projects.title} src={projectImage}/>
                         <div className="overlay">
                                 <ul className="project-links">
-                                    <li key={projects.name}><a href={projects.url}><i className="fa fa-link"></i></a></li>
+                                    <li key={projects.name}><a href={projects.url}><i className={linkClass}></i></a></li>
                                     <li key={projects.name}><a href={projects.repo}><i className="fa fa-github"></i></a></li>
                                 </ul>
                         </div>

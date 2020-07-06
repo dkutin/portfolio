@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dkutin.github.io/",
-  "name": "dkutin.github.io",
+  "homepage": "https://dmitrykutin.com",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": false,
   "dependencies": {

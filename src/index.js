@@ -9,13 +9,6 @@ ReactDOM.render(
     <Router>
         <Switch>
             <Route path="/" exact component={App} />
-            <Route
-                path="/fantasytracker" exact
-                component={() => { 
-                    window.location.href = 'https://dmitrykutin.com/fantasytracker'; 
-                    return null;
-                }}
-            />
             <Route path="*" component={() => {return(
                 <div className="not-found">
                     <h1>Uh oh! 404 Page Not Found</h1>

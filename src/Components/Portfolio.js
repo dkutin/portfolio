@@ -16,8 +16,8 @@ class Portfolio extends Component {
                     <img alt={projects.title} src={projectImage}/>
                         <div className="overlay">
                                 <ul className="project-links">
-                                    <li key={projects.name}><a href={projects.url}><i className={linkClass}></i></a></li>
-                                    <li key={projects.name}><a href={projects.repo}><i className="fa fa-github"></i></a></li>
+                                    <li key={projects.name}><a href={projects.url} target="_blank" rel="noopener noreferrer"><i className={linkClass}></i></a></li>
+                                    <li key={projects.name}><a href={projects.repo} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
                                 </ul>
                         </div>
                 </div>

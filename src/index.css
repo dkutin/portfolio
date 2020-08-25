@@ -1,0 +1,19 @@
+.not-found {
+    text-align: center;
+    margin: 5em auto;
+    width: auto;
+}
+
+.not-found h1 {
+    margin-bottom: 12px;
+}
+
+.not-found h2 {
+    width: auto;
+    display: inline-block;
+}
+
+.not-found a {
+    font-size: 28px;
+    font-weight: 600;
+}

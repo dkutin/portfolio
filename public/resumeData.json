@@ -52,6 +52,7 @@
         "description" : "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - WIP: For the launch in Google Cloud with Google App Engine.",
         "contribution" : "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and CSS frontend.",
         "image":"affinity.jpg",
+        "url":"https://affinity.dmitrykutin.com/",
         "repo": "https://github.com/dkutin/affinity"
       },
       {

@@ -1,7 +1,6 @@
 # Portfolio  
-![](https://github.com/dkutin/dkutin.github.io/workflows/Testing/badge.svg) <br />
-![](https://github.com/dkutin/dkutin.github.io/workflows/Deployment/badge.svg)
 
+![](https://github.com/dkutin/dkutin.github.io/workflows/Testing/badge.svg)&nbsp;![](https://github.com/dkutin/dkutin.github.io/workflows/Deployment/badge.svg)\
 My portfolio showcasing all of my experiences and personal projects. Developed using React.js, JavaScript, HTML, and CSS. 
 
 ## Motivation

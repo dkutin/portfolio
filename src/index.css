@@ -17,3 +17,8 @@
     font-size: 28px;
     font-weight: 600;
 }
+
+.pdf-viewer {
+    width: 100%;
+    height: 100%;
+}

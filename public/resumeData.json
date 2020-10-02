@@ -29,8 +29,15 @@
     "work":[
       {
         "company":"University of Ottawa",
+        "title":"Web Developer",
+        "years":"September 2020 - Present",
+        "description":"",
+        "contribution": ""
+      },
+      {
+        "company":"University of Ottawa",
         "title":"Junior Web Developer",
-        "years":"May 2019 - Present",
+        "years":"May 2019 - September 2020",
         "description":"Full-Stack development with a medium-sized development team working with Agile and SCRUM methodologies through JIRA.",
         "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, development of a campus-wide emergency management notification system, and Drupal 7 module for a university fee estimator tool connected to a RESTful API with OAuth."
       }

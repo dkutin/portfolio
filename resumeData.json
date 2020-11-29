@@ -69,12 +69,12 @@
         "repo": "https://github.com/dkutin/dkutin.github.io/"
       },
       {
-        "title":"LeetCode Problems",
-        "description" : "A repository of various algorithmic LeetCode problems I solved using Java and C.",
-        "contribution" : "To refine my knowledge of algorithms, databases, and concurrency in Java. Common interview questions to practice and to apply concepts learned in my computer science undergraduate degree.",
-        "image":"leetcode.jpg",
-        "url": "https://leetcode.com/dkutin/",
-        "repo": "https://github.com/dkutin/leetcode-problems"
+        "title":"Photography Portfolio Site",
+        "description" : "A photography and artwork portfolio site build using Netlify and Gatsby as a custom CMS. Containing an About page, Contact form, and Photography/Artwork showcase pages, all configurable from the User Interface.",
+        "contribution" : "Using React, GraphQL, SASS, with Gatsby and Netlify to create a custom photography and artwork showcase portfolio leveraging a custom content management system.",
+        "image":"photography-portfolio.jpg",
+        "url": "https://rebeccaforan.netlify.app",
+        "repo": "https://github.com/dkutin/rebeccaforan-portfolio"
       }
     ]
   }

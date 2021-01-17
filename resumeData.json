@@ -55,10 +55,10 @@
       },
       {
         "title":"Affinity - Spotify API with Auth",
-        "description" : "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - WIP: For the launch in Google Cloud with Google App Engine.",
-        "contribution" : "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and CSS frontend.",
+        "description" : "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - Currently a work in progress, though functional; and hosted on Heroku.",
+        "contribution" : "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and SASS frontend.",
         "image":"affinity.jpg",
-        "url":"https://affinity.dmitrykutin.com/",
+        "url":"https://dev-affinity.herokuapp.com/",
         "repo": "https://github.com/dkutin/affinity"
       },
       {

@@ -1,80 +1,80 @@
 {
   "main": {
-    "name":"Dmitry Kutin",
-    "description":"Fourth Year Student at the University of Ottawa working towards a BSc with Honours in Computer Science, Management and Entrepreneurship Option",
-    "bio":"A self-motivated young professional tooled towards full-stack development with proficiency in MEAN, MERN and LAMP stacks. Outside of web development, I use Java and C for course work and algorithmic problems on LeetCode.",
+    "name": "Dmitry Kutin",
+    "description": "Fourth Year Student at the University of Ottawa working towards a BSc with Honours in Computer Science, Management and Entrepreneurship Option",
+    "bio": "A self-motivated young professional tooled towards full-stack development with proficiency in MEAN, MERN and LAMP stacks. Outside of web development, I use Java and C for course work and algorithmic problems on LeetCode.",
     "email": "dmitrykutin@outlook.com",
     "phone": "905-466-6980",
     "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/dmitry-kutin-527032189/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/dmitrykutin/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"http://github.com/dkutin",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/dkutin",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"University of Ottawa",
-        "degree":"BSc Specialization in Computer Science, Management, Entrepreneurship Option",
-        "description":"Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture, and various core Business Management courses. \r\n Achieved Dean's List Honour in the Winter 2020 Semester."
+        "school": "University of Ottawa",
+        "degree": "BSc Specialization in Computer Science, Management, Entrepreneurship Option",
+        "description": "Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture, and various core Business Management courses. \r\n Achieved Dean's List Honour in the Winter 2020 Semester."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"University of Ottawa",
-        "title":"Web Developer",
-        "years":"September 2020 - Present",
-        "description":"",
+        "company": "University of Ottawa",
+        "title": "Web Developer - Full-time",
+        "years": "September 2020 - Present",
+        "description": "",
         "contribution": ""
       },
       {
-        "company":"University of Ottawa",
-        "title":"Junior Web Developer",
-        "years":"May 2019 - September 2020",
-        "description":"Full-Stack development with a medium-sized development team working with Agile and SCRUM methodologies through JIRA.",
+        "company": "University of Ottawa",
+        "title": "Junior Web Developer - Internship",
+        "years": "May 2019 - September 2020",
+        "description": "Full-Stack development with a medium-sized development team working with Agile and SCRUM methodologies through JIRA.",
         "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, development of a campus-wide emergency management notification system, and Drupal 7 module for a university fee estimator tool connected to a RESTful API with OAuth."
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Fantasy Tracker - Yahoo! Fantasy API",
-        "description":"A work in progress: Created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league and viewable on a centralized web page with DBMS for authenticated and non-authenticated users.",
-        "contribution" : "Handling and calling APIs, storing them in a MySQL Database, queried from a Node.js API using the Express framework and CircleCI for testing in pre-production. The application featured a React front-end.",
-        "image":"fantasytracker.jpg",
-        "url":"https://fantasytracker.dmitrykutin.com/",
+        "title": "Fantasy Tracker - Yahoo! Fantasy API",
+        "description": "A work in progress: Created to show player trends in Yahoo! Fantasy Basketball -- customizable to each fantasy league and viewable on a centralized web page with DBMS for authenticated and non-authenticated users.",
+        "contribution": "Handling and calling APIs, storing them in a MySQL Database, queried from a Node.js API using the Express framework and CircleCI for testing in pre-production. The application featured a React front-end.",
+        "image": "fantasytracker.jpg",
+        "url": "https://fantasytracker.dmitrykutin.com/",
         "repo": "https://github.com/dkutin/fantasytracker"
       },
       {
-        "title":"Affinity - Spotify API with Auth",
-        "description" : "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - Currently a work in progress, though functional; and hosted on Heroku.",
-        "contribution" : "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and SASS frontend.",
-        "image":"affinity.jpg",
-        "url":"https://dev-affinity.herokuapp.com/",
+        "title": "Affinity - Spotify API with Auth",
+        "description": "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - Currently a work in progress, though functional; and hosted on Heroku.",
+        "contribution": "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and SASS frontend.",
+        "image": "affinity.jpg",
+        "url": "http://affinity.dmitrykutin.com/",
         "repo": "https://github.com/dkutin/affinity"
       },
       {
-        "title":"My Portfolio",
-        "description" : "This site was created with React, HTML, CSS, Javascript -- hosted on Github Pages. A showcase of my past work in my undergraduate degree and various personal projects I (somehow) found time to bring to life.",
-        "contribution" : "Furthered my skills with HTML, CSS and JS. Experimented with UX/UI design in Adobe XD, able to implement my desired look and feel by utilizing a React application",
-        "image":"portfolio.jpg",
-        "repo": "https://github.com/dkutin/dkutin.github.io/"
+        "title": "Photography Portfolio Site",
+        "description": "A photography and artwork portfolio site build using Netlify and Gatsby as a custom CMS. Containing an About page, Contact form, and Photography/Artwork showcase pages, all configurable from the User Interface.",
+        "contribution": "Using React, GraphQL, SASS, with Gatsby and Netlify to create a custom photography and artwork showcase portfolio leveraging a custom content management system.",
+        "image": "photography-portfolio.jpg",
+        "url": "https://rebeccaforan.ca/",
+        "repo": "https://github.com/dkutin/rebeccaforan-portfolio"
       },
       {
-        "title":"Photography Portfolio Site",
-        "description" : "A photography and artwork portfolio site build using Netlify and Gatsby as a custom CMS. Containing an About page, Contact form, and Photography/Artwork showcase pages, all configurable from the User Interface.",
-        "contribution" : "Using React, GraphQL, SASS, with Gatsby and Netlify to create a custom photography and artwork showcase portfolio leveraging a custom content management system.",
-        "image":"photography-portfolio.jpg",
-        "url": "https://rebeccaforan.netlify.app",
-        "repo": "https://github.com/dkutin/rebeccaforan-portfolio"
+        "title": "My Portfolio",
+        "description": "This site was created with React, HTML, CSS, Javascript -- hosted on Github Pages. A showcase of my past work in my undergraduate degree and various personal projects I (somehow) found time to bring to life.",
+        "contribution": "Furthered my skills with HTML, CSS and JS. Experimented with UX/UI design in Adobe XD, able to implement my desired look and feel by utilizing a React application",
+        "image": "portfolio.jpg",
+        "repo": "https://github.com/dkutin/dkutin.github.io/"
       }
     ]
   }

@@ -2,10 +2,10 @@ name: Testing
 on:
   push:
     branches:
-      - '*'
-      - '!master'
-      - '!source'
-  pull_request: 
+      - "*"
+      - "!master"
+      - "!source"
+  pull_request:
     branches:
       - source
 jobs:

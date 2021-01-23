@@ -1,11 +1,11 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { MemoryRouter } from 'react-router';
-import App from './App';
-import Resume from './Resume';
-import NotFound from './NotFound'
+import React from "react";
+import { render } from "react-dom";
+import { MemoryRouter } from "react-router";
+import App from "./App";
+import Resume from "./Resume";
+import NotFound from "./NotFound";
 
-const root = document.createElement('div');
+const root = document.createElement("div");
 document.body.appendChild(root);
 
 it('should show <App> component for "/" route.', () => {

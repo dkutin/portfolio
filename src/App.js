@@ -1,48 +1,48 @@
-import React, { Component } from 'react';
-import $ from 'jquery';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
+import React, { Component } from "react";
+import $ from "jquery";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+
+import "./styles/_main.scss";
 
 class App extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      resumeData: {}
+      resumeData: {},
     };
-
   }
 
-  getResumeData(){
+  getResumeData() {
     $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
+      url: "/resumeData.json",
+      dataType: "json",
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function (data) {
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Resume data={this.state.resumeData.resume} />
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }

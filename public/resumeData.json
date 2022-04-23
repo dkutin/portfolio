@@ -1,8 +1,8 @@
 {
   "main": {
     "name": "Dmitry Kutin",
-    "description": "Fourth Year Student at the University of Ottawa working towards a BSc with Honours in Computer Science, Management and Entrepreneurship Option",
-    "bio": "A self-motivated young professional tooled towards full-stack development with proficiency in MEAN, MERN and LAMP stacks. Outside of web development, I use Java and C for course work and algorithmic problems on LeetCode.",
+    "description": "University of Ottawa graduate with a BSc with Honours in Computer Science, Management and Entrepreneurship",
+    "bio": "A self-motivated young professional tooled towards full-stack development with proficiency in MERN and LAMP stacks. I also use Java, C, and Go for course work and algorithmic problems.",
     "email": "dmitrykutin@outlook.com",
     "phone": "905-466-6980",
     "social": [
@@ -23,22 +23,29 @@
       {
         "school": "University of Ottawa",
         "degree": "BSc Specialization in Computer Science, Management, Entrepreneurship Option",
-        "description": "Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture, and various core Business Management courses. \r\n Achieved Dean's List Honour in the Winter 2020 Semester."
+        "description": "Classes in Data Structures and Algorithms, Operating Systems, Software Engineering, Discrete Structures, Computer Architecture, and various core Business Management courses. Achieved Dean's List Honour in Winter 2020, Spring/Summer 2020, Fall 2020, Winter 2021, Spring/Summer 2021, Fall 2021, Winter 2022 semesters."
       }
     ],
     "work": [
       {
-        "company": "University of Ottawa",
-        "title": "Web Developer - Full-time",
-        "years": "September 2020 - Present",
-        "description": "",
-        "contribution": ""
+        "company": "Fortinet",
+        "title": "Web Developer (Full Stack)",
+        "years": "2022 - Present",
+        "description": "PHP, React.js, MySQL, Moodle",
+        "contribution": "Enhanced resource traceability for a lab platform that enables students to configure Fortinet products in pre-provisioned VMs. Overhauled integration responsible for collecting in-person exam results to use modern design patterns, resulting in improved page load times and a reduced number of database transactions."
       },
       {
         "company": "University of Ottawa",
-        "title": "Junior Web Developer - Internship",
-        "years": "May 2019 - September 2020",
-        "description": "Full-Stack development with a medium-sized development team working with Agile and SCRUM methodologies through JIRA.",
+        "title": "Web Developer (Full Stack)",
+        "years": "2020 - 2021",
+        "description": "PHP, React.js, Express, MongoDB, Vue.js, Oracle DB",
+        "contribution": "Coordinated development for a Self-Serve MFA Reset application, designed for re-use in other higher education institutions using Microsoft Azure AD, deployed using Helm charts. \r\n Transformed 300+ Drupal 7 sites to Drupal 9 working in a cross-functional team employing scrum principles. \n\n Managed feature development, maintenance & deployment of web applications responsible for serving over 50 000 students, faculty, and staff as a main point of access for the University's online services."
+      },
+      {
+        "company": "University of Ottawa",
+        "title": "Junior Web Developer",
+        "years": "2019 - 2020",
+        "description": "PHP, Javascript (ES6), Twig, Drupal, MySQL",
         "contribution": "Assisting in developing key university websites using the Drupal 7 framework, migrating content and custom modules from Drupal 7 to Drupal 8, development of a campus-wide emergency management notification system, and Drupal 7 module for a university fee estimator tool connected to a RESTful API with OAuth."
       }
     ]
@@ -58,7 +65,7 @@
         "description": "A visualized representation of your music library through Spotify's metrics provided from their API. Authentication through authorization code and run as two separate services - Currently a work in progress, though functional; and hosted on Heroku.",
         "contribution": "React Application, with Express Node.js authentication server to allow for personalized mapping of songs for each user. Using open-source libraries for graphing and calling the Spotify service, along with JS, HTML, and SASS frontend.",
         "image": "affinity.jpg",
-        "url": "http://affinity.dmitrykutin.com/",
+        "url": "https://affinity.dmitrykutin.com/",
         "repo": "https://github.com/dkutin/affinity"
       },
       {

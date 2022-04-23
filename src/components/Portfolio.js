@@ -3,58 +3,52 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
   render() {
 
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
+    if (this.props.data) {
+      var projects = this.props.data.projects.map(function (projects) {
+        var projectImage = 'images/portfolio/' + projects.image;
         var linkClass = 'fa fa-link';
-        if (!projects.url) 
+        if (!projects.url)
           linkClass += ' disabled'
         return <div key={projects.title} className="columns portfolio-item">
-            {/*Image with Hover*/}
-            <div className="portfolio-item-image" >
-                <div className="item-wrap">
-                    <img alt={projects.title} src={projectImage}/>
-                        <div className="overlay">
-                                <ul className="project-links">
-                                    <li key={projects.name}><a href={projects.url} target="_blank" rel="noopener noreferrer"><i className={linkClass}></i></a></li>
-                                    <li key={projects.name}><a href={projects.repo} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
-                                </ul>
-                        </div>
-                </div>
-            </div>
-            {/*Text*/}
-            <div className="portfolio-item-meta">
-                <h5>{projects.title}</h5><br/>
-                <p>
-                    <b>Description</b>
-                    <br/>{projects.description}
-                </p>
-                <br/>
-                <p>
-                    <b>My Contribution</b>
-                    <br/>
-                    {projects.contribution}
-                </p>
+          {/*Image with Hover*/}
+          <div className="portfolio-item-image" >
+            <div className="item-wrap">
+              <img alt={projects.title} src={projectImage} />
+              <div className="overlay">
+                <ul className="project-links">
+                  <li key={projects.name}><a href={projects.url} target="_blank" rel="noopener noreferrer"><i className={linkClass}></i></a></li>
+                  <li key={projects.name}><a href={projects.repo} target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
+          {/*Text*/}
+          <div className="portfolio-item-meta">
+            <h5>{projects.title}</h5>
+            <h6>Description</h6>
+            <p>{projects.description}</p>
+            <h6>Contribution</h6>
+            <p>{projects.contribution}</p>
+          </div>
+        </div>
       })
     }
 
     return (
       <section id="portfolio">
 
-      <div className="row">
+        <div className="row">
 
-         <div className="twelve columns collapsed">
+          <div className="twelve columns collapsed">
 
             <h1>Projects</h1>
 
             <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
-                {projects}
+              {projects}
             </div>
           </div>
-      </div>
-   </section>
+        </div>
+      </section>
     );
   }
 }
